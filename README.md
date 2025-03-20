@@ -35,7 +35,7 @@ The Grocery Price Assistant is built with a layered architecture that provides f
 1. **Clone the repository**
 
 ```bash
-
+git clone https://github.com/prakash-aryan/grocery_price_assistant.git
 cd grocery_price_assistant
 ```
 
