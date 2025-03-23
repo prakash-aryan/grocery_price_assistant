@@ -86,6 +86,11 @@ The system uses DeepSeek-R1, a powerful reasoning model with excellent performan
 ollama pull deepseek-r1:32b
 ```
 
+### optional for ssh tunneling
+```bash
+ssh -N -L local_port:destination_host:destination_port username@remote_server
+ssh -N -L 11434:localhost:11434 prakash@remote_server
+```
 > **About DeepSeek-R1**: This model is a 32B parameter reasoning model that excels at mathematical calculations and logical deduction. It provides accurate results while maintaining privacy since all processing happens locally. DeepSeek-R1 achieved impressive scores on benchmarks such as MATH-500 (97.3%), AIME 2024 (79.8%), and LiveCodeBench (65.9%), making it ideal for precise price calculations and conversions.
 
 ### Environment Configuration
